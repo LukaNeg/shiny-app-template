@@ -10,8 +10,8 @@
 library(shiny)
 library(shinyWidgets)
 library(shinydashboard)
-source("00_code_functions.R")
-source("01_dataclean.R")
+source("scripts/00_functions.R")
+source("scripts/01_dataclean.R")
 
 ### Load data from the data folder:
 version_lab = "v0.0.1"
